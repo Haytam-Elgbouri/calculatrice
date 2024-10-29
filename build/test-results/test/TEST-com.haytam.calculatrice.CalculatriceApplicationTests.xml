@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.haytam.calculatrice.CalculatriceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-29T14:05:20" hostname="abdelbasset-virtual-machine" time="3.198">
+<testsuite name="com.haytam.calculatrice.CalculatriceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-29T15:48:01" hostname="abdelbasset-virtual-machine" time="3.689">
   <properties/>
-  <testcase name="contextLoads()" classname="com.haytam.calculatrice.CalculatriceApplicationTests" time="3.198"/>
-  <system-out><![CDATA[15:05:13.988 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.haytam.calculatrice.CalculatriceApplicationTests]: CalculatriceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-15:05:14.558 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.haytam.calculatrice.CalculatriceApplication for test class com.haytam.calculatrice.CalculatriceApplicationTests
+  <testcase name="contextLoads()" classname="com.haytam.calculatrice.CalculatriceApplicationTests" time="3.689"/>
+  <system-out><![CDATA[16:47:53.058 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.haytam.calculatrice.CalculatriceApplicationTests]: CalculatriceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:47:53.848 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.haytam.calculatrice.CalculatriceApplication for test class com.haytam.calculatrice.CalculatriceApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,9 @@
 
  :: Spring Boot ::                (v3.3.4)
 
-2024-10-29T15:05:16.363+01:00  INFO 12087 --- [calculatrice] [    Test worker] c.h.c.CalculatriceApplicationTests       : Starting CalculatriceApplicationTests using Java 21.0.2 with PID 12087 (started by abdelbasset in /home/abdelbasset/calculatrice)
-2024-10-29T15:05:16.368+01:00  INFO 12087 --- [calculatrice] [    Test worker] c.h.c.CalculatriceApplicationTests       : No active profile set, falling back to 1 default profile: "default"
-2024-10-29T15:05:20.821+01:00  INFO 12087 --- [calculatrice] [    Test worker] c.h.c.CalculatriceApplicationTests       : Started CalculatriceApplicationTests in 5.571 seconds (process running for 12.068)
+2024-10-29T16:47:55.902+01:00  INFO 18943 --- [calculatrice] [    Test worker] c.h.c.CalculatriceApplicationTests       : Starting CalculatriceApplicationTests using Java 21.0.2 with PID 18943 (started by abdelbasset in /home/abdelbasset/calculatrice)
+2024-10-29T16:47:55.908+01:00  INFO 18943 --- [calculatrice] [    Test worker] c.h.c.CalculatriceApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2024-10-29T16:48:01.471+01:00  INFO 18943 --- [calculatrice] [    Test worker] c.h.c.CalculatriceApplicationTests       : Started CalculatriceApplicationTests in 6.776 seconds (process running for 14.996)
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/abdelbasset/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.19/154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1/byte-buddy-agent-1.14.19.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning

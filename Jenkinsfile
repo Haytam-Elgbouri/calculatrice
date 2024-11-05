@@ -1,5 +1,10 @@
 pipeline {
     agent any
+       triggers{
+       pollSCM('*****')
+       }
+    		
+    }
     stages {
        
         stage("Compilation") {
@@ -25,5 +30,7 @@ pipeline {
                 sh "./gradlew jacocoTestCoverageVerification"
             }
         }
+        
     }
+ 
 }

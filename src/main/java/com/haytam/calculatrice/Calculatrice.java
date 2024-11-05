@@ -1,4 +1,4 @@
-package com.chaffai.calculatrice;
+package com.haytam.calculatrice;
 import org.springframework.stereotype.Service;
 
 @Service

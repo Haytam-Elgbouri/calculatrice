@@ -4,6 +4,10 @@ pipeline {
     triggers {
         pollSCM('* * * * *') // This triggers the job every minute to check for SCM changes; adjust as needed
     }
+    
+    tools {
+        jdk 'JDK 21' // Ensure this matches the name configured in Global Tool Configuration
+    }
 
     stages {
         stage("Compilation") {

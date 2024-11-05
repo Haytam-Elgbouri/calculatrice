@@ -34,7 +34,7 @@ pipeline {
     
     post{
     	always{
-    	mail to: 'abdelbassethmidchat1@gmail.com',
+    	mail to: 'elgbourihaytam@gmail.com',
     	subject:"notif de l'état : ${env.BUILD_URL}",
     	body:"votre build est accompli : ${env.BUILD_URL}"
     	}

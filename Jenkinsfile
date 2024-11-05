@@ -1,24 +1,23 @@
 pipeline {
     agent any
-       triggers{
-       pollSCM('*****')
-       }
-    		
+
+    triggers {
+        pollSCM('*****')
     }
+
     stages {
-       
         stage("Compilation") {
             steps {
                 sh "./gradlew compileJava"
             }
         }
-       
+
         stage("Tests unitaires") {
             steps {
                 sh "./gradlew test"
             }
         }
-       
+
         stage("Couverture de code") {
             steps {
                 sh "./gradlew jacocoTestReport"
@@ -30,7 +29,6 @@ pipeline {
                 sh "./gradlew jacocoTestCoverageVerification"
             }
         }
-        
     }
- 
 }
+

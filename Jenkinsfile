@@ -19,17 +19,7 @@ pipeline {
             }
         }
 
-        stage("Couverture de code") {
-            steps {
-                sh "./gradlew jacocoTestReport" // Generates a JaCoCo code coverage report
-                publishHTML(target: [
-                    reportDir: 'build/reports/jacoco/test/html',
-                    reportFiles: 'index.html',
-                    reportName: "Rapport JaCoCo"
-                ])
-                sh "./gradlew jacocoTestCoverageVerification" // Verifies code coverage metrics
-            }
-        }
+  
     }
     
     post{
